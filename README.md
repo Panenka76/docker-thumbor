@@ -1,7 +1,7 @@
 Docker image for thumbor
 ========================
 
-Docker image for thumbor that can be configured through environment variables. Thumbor will be exposed on port 8888.
+Docker image for [thumbor](https://github.com/thumbor/thumbor) that can be configured through environment variables. Thumbor will be exposed on port 8888.
 
 Description
 -----------
