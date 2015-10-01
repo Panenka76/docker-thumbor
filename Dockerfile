@@ -11,7 +11,7 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-RUN pip install thumbor==$THUMBOR_VERSION
+RUN pip install redis thumbor==$THUMBOR_VERSION
 
 # List all the configuration options of thumbor
 RUN thumbor-config | grep "^#.*\ =" | sed 's/^#\(.*\) =.*/^\1=/' > /opt/thumbor-options.conf
