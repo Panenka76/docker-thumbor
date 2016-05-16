@@ -1,7 +1,7 @@
 FROM ubuntu:15.10
 MAINTAINER Stijn Opheide <stijn@panenka76.com>
 ENV DEBIAN_FRONTEND noninteractive
-ENV THUMBOR_VERSION 5.2.1
+ENV THUMBOR_VERSION 6.0.0
 
 RUN apt-get update && \
     apt-get install -y python python-dev python-opencv python-pip python-pycurl \
